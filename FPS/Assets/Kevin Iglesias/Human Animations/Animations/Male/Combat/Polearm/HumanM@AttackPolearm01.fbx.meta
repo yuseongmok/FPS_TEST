@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: 04d7996e4b80c684a97630c930541aff
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165785
+  packageName: Human Melee Animations FREE
+  packageVersion: 2.0.2
+  assetPath: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Polearm/HumanM@AttackPolearm01.fbx
+  uploadId: 825254
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects: {}
   materials:
@@ -16,8 +23,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -56,7 +61,15 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: SpawnAttackEffect
+        data: 
+        objectReferenceParameter: {fileID: 3600389243222657682, guid: 3fee2e03e4bdc854bb38f7bcbca7c75d,
+          type: 3}
+        floatParameter: 0
+        intParameter: 2
+        messageOptions: 0
       transformMask:
       - path: 
         weight: 1
@@ -205,6 +218,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -966,10 +982,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 165785
-  packageName: Human Melee Animations FREE
-  packageVersion: 2.0.2
-  assetPath: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Polearm/HumanM@AttackPolearm01.fbx
-  uploadId: 825254
